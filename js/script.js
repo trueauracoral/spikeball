@@ -352,11 +352,11 @@ let maxpoints = 20;
 document.addEventListener('pointermove', e => {
     mouseCoords = getMousePosition(canvas, e);
     //console.log(mouseCoords);
-    if (mousemovements.length < maxpoints) {
-        mousemovements.push(mouseCoords)
-    } else {
+
+    mousemovements.push(mouseCoords)
+    if (mousemovements.length > maxpoints) {
         mousemovements.shift()
-    }
+    } 
     if (selectedBall) {
         selectedBall.px = mouseCoords.x;
         selectedBall.py = mouseCoords.y;
