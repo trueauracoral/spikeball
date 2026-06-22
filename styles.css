@@ -27,8 +27,8 @@ p {
 }
 
 canvas {
-    image-rendering: pixelated;
-    background-color: #ffff;
+    /* image-rendering: pixelated; */
+    background-color: #48d171;
     border: 2px solid black;
     font-smooth: never;
     -webkit-font-smoothing: none;

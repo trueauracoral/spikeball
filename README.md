@@ -1,20 +1,13 @@
-# Name of Project.
+# SPINSHIFTY
 
 # TODO List
-- [X] Make it so ball bouncess of top and sides of screen
-    - ASSIGNED: 6/14/26
-    - Copmleted: 6/15/26
-- [ ] Trampoline
-    - ASSIGNED: 6/13/26
-    - Make special effect where the trampoline's lines deform to the point of contact
-# Devlog
-## 6/14/26
-Coded trampoline
-## 6/13/26
-- Physics simulation + gravity
-- Made it so mouse can be dragged around to apply force on the ball.
-- Made ground
-## 5/31/26
-Implimented javidx9's tutorial for collisions
 
-https://www.youtube.com/watch?v=LPzyNOHY3A4 
+# Devlog
+## 6/22/26
+- Made a second level
+## 6/21/26
+- Made character move.
+- worked on a level system
+## 6/20/26
+- Made level system
+- drew character
